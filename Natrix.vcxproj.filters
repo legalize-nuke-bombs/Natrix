@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\engine">
+      <UniqueIdentifier>{8ee60ec0-edb8-4fe8-8dbb-3fd351920be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\gui">
+      <UniqueIdentifier>{75dc1ec3-5991-46f7-8146-45b918872d02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AI.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputHandler.cpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LegalMoveGen.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LegalMoveGenTester.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Move.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MoveList.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MoveSorter.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pieces.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Position.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PsLegalMoveMaskGen.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RepetitionHistory.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SearchInterrupter.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StaticEvaluator.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Storage.cpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TranspositionTable.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZobristHash.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIState.cpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AI.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bitboard.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BoardLayout.hpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputHandler.hpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KingMasks.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KnightMasks.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LegalMoveGen.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LegalMoveGenTester.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Move.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MoveList.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MoveSorter.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PassedPawnMasks.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pieces.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Position.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PsLegalMoveMaskGen.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.hpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RepetitionHistory.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SearchInterrupter.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SlidersMasks.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StaticEvaluator.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Storage.hpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TranspositionTable.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZobristHash.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZobristHashConstants.hpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI.hpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUIState.hpp">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
