@@ -1,6 +1,8 @@
 # Natrix
 
-A chess engine with a graphical interface, written in C++.
+A chess engine with a graphical interface.
+<br>
+![](docs/screenshot.png)
 
 ## Features
 
